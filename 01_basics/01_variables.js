@@ -5,7 +5,7 @@ city="Tumkur"
 
 name="Rohan"
 
-number=90
-// id=345
+number=9
+// id=34
 console.table([id,name,number,city])
 
