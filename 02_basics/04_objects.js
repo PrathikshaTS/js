@@ -32,11 +32,33 @@ const obj3={...obj1,...obj2}//spread operator
 
 //there can be objects in arrays
 
-console.log(Object.keys(user));
-console.log(Object.values(user));
-console.log(Object.entries(user));
-console.log(user.hasOwnProperty('isLogged'));
+// console.log(Object.keys(user));
+// console.log(Object.values(user));
+// console.log(Object.entries(user));
+// console.log(user.hasOwnProperty('isLogged'));
 
+const course={
+    courseName:"js in hindi",
+    price:999,
+    courseInstructor:"Hitesh"
+}
+// console.log(course.courseInstructor);
+
+const {courseInstructor:instructor}=course;
+// console.log(instructor);
+
+//JSON
+// {
+//     "name":"Prathik",
+//     "course":"js in hindi",
+//     "age":19
+// }
+
+[
+    {},
+    {},
+    {}
+]
 
 
 
